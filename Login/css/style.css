@@ -1,0 +1,77 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #ffccff;
+    color: rgb(230, 185, 104);
+    font-family: 'Arial', sans-serif;
+    margin: 0; 
+}
+h1 {
+    color: black;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+   
+}
+form {
+    background-color: #fffc;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+}
+label, input {
+    display: block;
+    margin-bottom: 15px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    Padding:10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+input[type="submit"] {
+    background-color: #800080;
+    padding: 12px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+}
+input[type="submit"]:hover {
+    background-color: #660066;
+}
+input[type="name"]:hover {
+    background-color: #660066;
+}
+a {
+    color: #800080;
+    text-decoration: wavy;
+    display: block;
+    text-align: center;
+}
+a :hover{
+    text-decoration: underline;
+}
+#userLabel {
+    font-style: italic;
+}
+#passLabel {
+    font-style: oblique; 
+}
+#buttonLabel {
+    background-color: blueviolet;
+    color:blueviolet;
+}
+#nameLabel {
+    font-style: italic;
+
+}
+select{
+    width: 100%;
+    height: 40px;
+    background-color: #c493c4;
+    border-radius: 10px;
+}
