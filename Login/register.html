@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register</title>
+<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <form>
-    <h1>REGISTER<h1>
-        <label for="username">
-            <br>Username <input type="text" placeholder="Enter Username" name="username"></br>
-            </label>
-            <label for="username"><br>
-                <b>Name <input type="text" placeholder="Enter Name" name="name"></b>
-                </label><br>
-                <b> Gender <select>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                </select></b>
-                <br></br>
-                    <b>Password <input type="password" placeholder="Enter Password" name="password"></b>
-                </label><br>
-                <input type="submit" valuer="Register"><br>
-                <a href="login.html">Already Registered?</a><br>
-            </form>
-    
+<form class="login-box" action="#" method="post">
+    <h1>Register</h1>
+    <center><span class="error-message">Error Message</span></center><br></br>
+    <label for="username">Username:</label>
+    <input type="text" name="username" placeholder="Username" required>
+    <label for="name">Name:</label>
+    <input type="text" name="name" placeholder="Name" required>
+    <center><label class="gender">Gender</label></center>
+    <center><select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select></center><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <input type="submit" value="Register"><br><br>
+    <center><a class="register-link" href="login.html">Already Registered</a></center>
+</form>
 </body>
 </html>

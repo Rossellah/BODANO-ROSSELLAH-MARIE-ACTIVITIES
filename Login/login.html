@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <form> 
-   
-    <h1>SIMPLE LOGIN<h1>
-        <label for="username">
-            <br>Username <input type="text" placeholder="Enter Username" name="username"></br>
-            </label>
-            <label for="pw"><br>
-                <b> Password <input type="password" placeholder="Enter Password" name="password"></b>
-                </label><br>
-                <a href="register.html">Forgot Password?</a><br>
-                <input type="submit" valuer="Login"><br>
-                <a href="register.html">Register Here</a><br>
-         
-    </form>
+<form class="login-box" action="#" method="post">
+    <h1>Simple Login</h1>
+    <center><span class="error-message">Error Message</span></center><br></br>
+    <label for="username">Username:</label>
+    <input type="text" name="username" placeholder="Username" required>
+    <label for="password">Password:</label>
+    <input type="password" name="password" placeholder="Password" required><br></br>
+    <input type="submit" value="Login"><br></br>
+    <center><a class="forgot-password" href="forgot.html">Forgot Password?</a></br></center><br>
+    <center><a class="register-here" href="register.html">Register Here</a></center>
+</form>
 
-        
 </body>
 </html>
